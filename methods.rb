@@ -3,26 +3,17 @@ def greet_programmer
   puts "Hello, programmer!"
 end
 
-# greet_programmer
-
 def greet(name)
   puts "Hello, #{name}!"
 end
-
-# greet("Programmer")
 
 def greet_with_default(name = "programmer")
   puts "Hello, #{name}!"
 end
 
-# greet_with_default("Naureen")
-
 def add(num1, num2)
   num1 + num2
 end
-
-# sum = add(1, 2)
-# puts sum
 
 def halve(number)
   if (number.class != Integer)
@@ -30,5 +21,3 @@ def halve(number)
   end
   return number / 2
 end
-
-# puts halve(9)
